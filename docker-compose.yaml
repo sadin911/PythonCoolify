@@ -6,5 +6,5 @@ services:
     ports:
       - "8501:8501"
     environment:
-      - STREAMLIT_SERVER_ENABLE_CORS=false
+      - STREAMLIT_SERVER_ENABLE_CORS=true
     restart: unless-stopped
